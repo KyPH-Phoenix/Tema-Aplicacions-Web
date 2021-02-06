@@ -2,8 +2,8 @@
     get_header()
 ?>
 
-<div class="container bg">
-    <br>
+<br>
+<div class="container bg trans">
     <h1><?-wp_title($sep = '')?></h1>
     <br>
     <?php 
@@ -16,9 +16,12 @@
             <?php
         } 
     ?>
-</div>
 
-<hr class="container bg">
+<hr>
+<footer class="">
+<p>&copy; Cybergarden 2077</p>
+</footer>
+</div>
 
 <?php 
     get_footer()

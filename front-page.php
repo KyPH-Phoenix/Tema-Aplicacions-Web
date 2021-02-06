@@ -32,6 +32,9 @@
 
   <hr>
 
+  <footer class="">
+    <p>&copy; Cybergarden 2077</p>
+    </footer>
 </div> <!-- /container -->
 
 </main>

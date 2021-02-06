@@ -1,15 +1,17 @@
 <?php 
     get_header()
 ?>
-
-<div class="container bg">
+<br>
+<div class="container bg trans">
     <br>
     <h1><?-wp_title($sep = '')?></h1>
     <br>
     <?php the_content()?>
+    <hr>
+    <footer class="">
+    <p>&copy; Cybergarden 2077</p>
+    </footer>
 </div>
-
-<hr class="container bg">
 
 <?php 
     get_footer()
