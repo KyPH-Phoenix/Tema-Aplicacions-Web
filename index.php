@@ -1,8 +1,13 @@
 <?php 
     get_header()
 ?>
-    <h1>Este es mi tema</h1>
+
+<div class="container bg">
+    <br>
+    <h1><?-wp_title($sep = '')?></h1>
+    <br>
     <?php 
+        ;
         while(have_posts()){
             the_post();
             ?>
@@ -11,6 +16,10 @@
             <?php
         } 
     ?>
+</div>
+
+<hr class="container bg">
+
 <?php 
     get_footer()
 ?>

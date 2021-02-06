@@ -1,6 +1,20 @@
+/*
+Theme Name: Cybergarden 2077
+Text Domain: #
+Version: 1.6
+Requires at least: 4.7
+Requires PHP: 5.2.4
+Description: Mezcla jardinería y Cyberpunk. ¿Qué podría salir mal?
+Author: Yo
+Author URI: https://wordpress.org/
+Theme URI: https://wordpress.org/themes/twentytwenty/
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
 body {
     padding-top: 3.5rem;
-    background-image: url(https://images.unsplash.com/photo-1528092744838-b91de0a10615?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+    background-image: url(http://cybergarden-2077.local/wp-content/themes/Tema-Aplicacions-Web/img/Background.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

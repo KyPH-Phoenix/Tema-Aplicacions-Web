@@ -1,16 +1,16 @@
 <?php 
     get_header()
 ?>
-    <h1>Entrada simple</h1>
-    <?php
-    while(have_posts()){
-            the_post();
-            ?>
-            <h2><a href="<?-the_permalink()?>"><?-the_title()?></a></h2>
-            <p><?-the_content()?></p>
-            <?php
-        }
-    ?> 
+
+<div class="container bg">
+    <br>
+    <h1><?-wp_title($sep = '')?></h1>
+    <br>
+    <?php the_content()?>
+</div>
+
+<hr class="container bg">
+
 <?php 
     get_footer()
 ?>
