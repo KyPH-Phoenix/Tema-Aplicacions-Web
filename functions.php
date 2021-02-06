@@ -1,14 +1,18 @@
 <?php
 
-function infobasic_config(){
+function cybergarden2077_config(){
 
-    echo "EJECUTAMOS CONFIGURACIÓN";
+    register_nav_menus(
+        array(
+            'cybergarden2077_main_menu' => 'Cybergarden 2077 menú principal',
+        )
+    );
 
 }
-add_action( 'after_setup_theme', 'infobasic_config', 0 );
+add_action( 'after_setup_theme', 'cybergarden2077_config', 0 );
 
-function infobasic_scripts(){
+function cybergarden2077_scripts(){
     wp_enqueue_script( "bootstrap_js", get_theme_file_uri("inc/js/bootstrap.min.js"), array("jquery"),"4.5", true );
     wp_enqueue_style( "bootstrap_css", get_theme_file_uri("inc/css/bootstrap.min.css"),array(), "4.5","all" );
 }
-add_action( 'wp_enqueue_scripts', 'infobasic_scripts', );
+add_action( 'wp_enqueue_scripts', 'cybergarden2077_scripts', );

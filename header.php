@@ -16,13 +16,12 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="<?php echo site_url("/") ?>">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="<?php echo site_url("blog") ?>">Blog</a>
-      </li>
-    </ul>
+      <?php
+        wp_nav_menu(
+          array(
+            'theme_location' => 'cybergarden2077_main_menu'
+          )
+        )
+      ?> 
   </div>
 </nav>
